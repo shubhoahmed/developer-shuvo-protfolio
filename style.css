@@ -8,7 +8,7 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,4 +36,26 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.xp-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 18px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+.ex-area{
+    background-image: url("images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#bcolor{
+    border-left: 7px solid blue;
+}
+#dcolor{
+    border-left: 7px solid tomato;
+}
+footer p{
+    text-align: center;
 }
